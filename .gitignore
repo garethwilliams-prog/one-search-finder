@@ -1,0 +1,12 @@
+# Editor Configurations
+.vscode/
+.idea/
+
+# Python
+sherlock/__pycache__/
+
+# NPM
+node_modules/
+
+# Output files
+results/
