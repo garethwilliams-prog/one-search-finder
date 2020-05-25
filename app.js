@@ -16,6 +16,10 @@ app.use(morgan('tiny'));
 
 app.use('/', express.static('public'))
 
+app.get(/.*/, function (req, res) {
+	res.sendFile(path.join(__dirname, '/public/index.html'))
+});
+
 app.post('/search', (req, res) => {
     let username = req.body.params.username;
 
