@@ -3,7 +3,7 @@
 .idea/
 
 # Python
-sherlock/__pycache__/
+# sherlock/__pycache__/
 
 # NPM
 node_modules/
