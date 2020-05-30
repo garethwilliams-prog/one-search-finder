@@ -86,4 +86,4 @@ app.get('/readfile/:username', (req, res) => {
     });
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`OneSearchFinder listening on port ${port}!`));
